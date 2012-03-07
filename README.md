@@ -19,6 +19,7 @@ html:
     </ul>
 
 javascript:
+
     $('.showmore_container').showmore()
 
     or
