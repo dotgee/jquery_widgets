@@ -19,23 +19,15 @@ html:
     </ul>
 
 javascript:
-  $('.showmore_container').showmore()
+    $('.showmore_container').showmore()
 
-  or
-  var options = {
-    nbToShow : 5,
-    step: 5,
-    moreText: "[+] Voir plus",
-    minusText: "[-] Voir moins",
-    cssShowable : ".other_selector"
-  }
-  $('.showmore_container').showmore(options)
-
-
-options:
-  nbToShow: 5
-
-
-
-
-
+    or
+    
+    var options = {
+      nbToShow : 5,
+      step: 5,
+      moreText: "[+] Voir plus",
+      minusText: "[-] Voir moins",
+      cssShowable : ".other_selector"
+    }
+    $('.showmore_container').showmore(options)
